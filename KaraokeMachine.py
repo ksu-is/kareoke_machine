@@ -589,7 +589,7 @@ def play(outputFile):
 	data = wf.readframes(CHUNK)
 	while len(data) > 0:
 	    stream.write(data)
-	    data = wf.readframes(CHUNK)
+	data = wf.readframes(CHUNK)
 	stream.stop_stream()
 	stream.close()
 	p.terminate()
