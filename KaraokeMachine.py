@@ -142,13 +142,13 @@ def helpScreen(data, canvas):
 	data.buttons = [backButton]
 	for i in data.buttons:
 	 	i.printButton(canvas)
-	instructions="Like most karaoke machines, this program will let you choose a song to play for you to sing along \nwith."
-	instructions += "However, there's a slight catch: YOU WILL RECEIVE A GRADE FOR YOUR SINGING!"
-	instructions+="(Yes, \neven your singing is graded and judged at CMU)."
-	instructions+="See how well of a singer you are whether you're \nsinging during your study breaks or just on your own time.\n\n"
-	instructions+="Navigate through the different pages using the buttons and start the karaoke session just by \nclicking anywhere on the screen. "
-	instructions+="Make sure to use \nheadphones when using this program."
-	instructions+="At the end of the song, you will receive a grade out of a 100."
+			instructions="Like most karaoke machines, this program will let you choose a song to play for you to sing along \nwith."
+			instructions += "However, there's a slight catch: YOU WILL RECEIVE A GRADE FOR YOUR SINGING!"
+			instructions+="(Yes, \neven your singing is graded and judged at CMU)."
+			instructions+="See how well of a singer you are whether you're \nsinging during your study breaks or just on your own time.\n\n"
+			instructions+="Navigate through the different pages using the buttons and start the karaoke session just by \nclicking anywhere on the screen. "
+			instructions+="Make sure to use \nheadphones when using this program."
+			instructions+="At the end of the song, you will receive a grade out of a 100."
 	canvas.create_text(2*data.margin, 2*data.margin, text="How Do I Use This Karaoke Machine?",
 	fill = "peach puff", font="Veranda 40 bold", anchor = NW)
 	canvas.create_text(2*data.margin, 5*data.margin, text=instructions, 
